@@ -10,6 +10,7 @@ margin: 0;
 .flexible-container{
     display: flex;
     margin-bottom: 100px;
+    
 }
 .half-width{
    width: 50%; 
@@ -17,7 +18,7 @@ margin: 0;
    padding-right: 5%;
 }
 .half-width img{
-    width: 110%
+    width: 125%
 }
 .link-button{
     text-decoration: none;
@@ -30,6 +31,8 @@ margin: 0;
 .top-banner{
     background-image: url(image/top-banner.png);
     background-repeat: no-repeat;
+    
+    
     
 }
 .img2{
