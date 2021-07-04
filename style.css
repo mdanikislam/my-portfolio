@@ -7,13 +7,14 @@ margin: 0;
 .a1{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
 .half-width{
    width: 50%; 
    padding-left: 5%;
+   padding-right: 5%;
 }
 .half-width img{
     width: 110%
@@ -33,6 +34,7 @@ section{
 }
 .img2{
     width: 80%;
+    
    
     
 }
@@ -41,4 +43,36 @@ section{
     background-repeat: no-repeat;
     background-position: right;
     
+    
+    
+}
+.single-experience{
+    box-shadow:10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    border-radius:3px;
+    
+}
+.experience{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    }
+  #web-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+    }
+   #full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+       
+   } 
+
+   footer p{
+    text-align: center;
+    font-size: 12px;
 }
